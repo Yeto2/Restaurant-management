@@ -1,4 +1,9 @@
 <x-guest-layout>
+    <div class="relative flex items-top justify-center bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+        <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+            <a class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register as Restorant</a>    
+        </div>
+    </div>
     <x-auth-card>
         <x-slot name="logo">
             <a href="/">
