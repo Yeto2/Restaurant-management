@@ -20,7 +20,7 @@ class CreateReservationsTable extends Migration
             $table->string('email');
             $table->string('tel');
             $table->datetime('res_date');
-            $table->unsignedBigIntiger('table_id');
+            $table->unsignedBigInteger('table_id');
             $table->integer('guest_number');
             $table->timestamps();
         });
