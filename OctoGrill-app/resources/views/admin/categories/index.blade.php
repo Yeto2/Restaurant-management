@@ -47,7 +47,9 @@
                     {{ $category->created_at }}
                     </td>
                     <td class="px-6 py-4">
-                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                    <a href="{{ 'admin.category.edit' , $category->id }}" class="px-4 py-2 bg-green-500 hover:bg-green-700 rounded-lg">Edit</a>
+                    <form  method="post" 
+                        action="{{  }}"></form>
                     </td>
                 </tr>
             @endforeach
